@@ -1,52 +1,344 @@
 <!doctype html>
-<html>
-	<head>
+<html lang="en">
 
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="chrome=1">
-		<title>reveal.js - The HTML Presentations Framework</title>
+  <head>
+    <meta charset="utf-8">
 
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/main.css">
+    <title>How to Level Up as a Developer @ NUS</title>
 
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="Hakim El Hattab">
 
-		<!--[if lt IE 9]>
-		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-	</head>
-	<body>
-		<div class="wrapper">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-			<header>
+    <link rel="stylesheet" href="css/reveal.min.css">
+    <link rel="stylesheet" href="css/theme/default.css" id="theme">
+    <link rel="stylesheet" href="css/style.css">
 
-				<h1>reveal.js</h1>
-				<p>
-					The HTML Presentation Framework &mdash; Site coming soon
-				</p>
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
 
-			</header>
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+      if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+      }
+    </script>
 
-			<footer>
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
 
-				<p>
-					<a href="http://lab.hakim.se/reveal-js">Try the demo</a>
-					<a href="https://github.com/hakimel/reveal.js/releases">Download</a>
-				</p>
+  <body>
 
-			</footer>
+    <div class="reveal">
 
-		</div>
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+        <section>
+          <h1>Levelling Up @ NUS</h1>
+          <h3>How to be a developer through NUS modules and hackathons</h3>
+          <p>
+            <small>By <a href="http://yangshun.im"> Tay Yang Shun</a> / <a href="http://twitter.com/yangshunz">@yangshunz</a></small>
+          </p>
+        </section>
 
-		<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        <section>
+          <h2>Foreword</h2>
+          <p>Many modules in SoC are optional.</p> 
+          <p>Do modules because you want to, not because you have to.</p>
+        </section>
 
-		  ga('create', 'UA-43375306-1', 'revealjs.com');
-		  ga('send', 'pageview');
-		</script>
-	</body>
+        <section>
+          <h2>The Right Modules</h2>
+          <ul>
+            <li><span class="highlight">CP3101A</span> Global Open Source Project</li>
+            <li><span class="highlight">CP3101B</span> Web Programming and Applications</li>
+            <li><span class="highlight">CP3108A</span> Independent Work</li>
+            <li><span class="highlight">CP3108B</span> Independent Work (Orbital)</li>
+            <li><span class="highlight">CS3216</span> Software Development on Evolving Platforms</li>
+            <li><span class="highlight">CS3217</span> Software Engineering on Modern Application Platforms</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>The Origin of CS3216 and CS3217</h2>
+          <ul>
+            <img src="http://graph.facebook.com/benlwl/picture?type=large" class="ben">
+            <li>It all started with one man: Prof Ben Leong.</li> 
+            <li>Make students work with the latest technology relevant to the industry.</li> 
+            <li>School projects just treated as homework.</li>
+          </ul>
+        </section>
+
+        <section>
+          <section>
+            <h2>CS3216</h2>
+            <p>Software Development on Evolving Platforms</p>
+            <ul>
+              <li>About product creation and development, not just about coding.</li>
+              <li>Learn to deal with cutting edge and evolving technology.</li>
+            </ul>
+          </section>
+          <section>
+            <h2>CS3216</h2>
+            <ul>
+              <li>Highly team based.</li>
+              <li>Multidisciplinary in nature (developers, designers, biz dev).</li>
+              <li>Learn to deal with cutting edge and evolving technology.</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Course Structure</h2>
+            <ul>
+              <li>3 Assignments (Facebook Module, App Seminar, Mobile Web)</li>
+              <li>Final Project (Any web-based application)</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Why CS3216?</h2>
+            <ul>
+              <li>Get to meet cool people.</li>
+              <li>Level up in web development. Fast. </li>
+              <li>Build something you are interested in.</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Notable Projects</h2>
+            <div class="part">
+              <h3><a href="http://una-org.github.io/" target="_blank">Una</a></h3>
+              <ul>
+                <li>Library for cross-display apps.</li>
+              </ul>
+            </div>
+            <div class="part">
+              <h3><a href="https://github.com/darora/hush" target="_blank">Hush</a></h3>
+              <ul>
+                <li>Anonymous social network.</li>
+              </ul>
+            </div>
+            <div class="part">
+              <h3><a href="http://www.quickvi.com" target="_blank">GeeMeow / QuickVi</a></h3>
+              <ul>
+                <li>Instant hangout/Skype</li>
+                <li>And many collaboration features.</li>
+                <li>No login required.</li>
+              </ul>
+            </div>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h2>CS3217</h2>
+            <p>Software Engineering on Modern Application Platforms</p>
+            <ul>
+              <li>Hardcore software engineering module.</li>
+              <li>Reason for the existence of PL1 (iMac lab).</li>
+              <li>Each student is loaned an iPad for the course</li>
+            </ul>
+          </section>
+          <section>
+            <h2>CS3217</h2>
+            <ul>
+              <li>5 individual problem sets.</li>
+              <li>Build a Puzzle Bobble game by the first half of the semester.</li>
+              <li>1 final project.</li>
+              <li>Build any iOS application of your wish.</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Why CS3217?</h2>
+            <ul>
+              <li>Mobile is hot.</li>
+              <li>More Facebook users are on mobile than desktops.</li>
+              <li>Mobile developers highly sought after.</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Notable Projects</h2>
+            <div class="part">
+              <h3>Tenza Yakitori</h3>
+              <iframe width="640" height="360" src="http://www.youtube.com/embed/wI-4l_FhHsk" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </section>
+          <section>
+            <h2>Notable Projects</h2>
+            <div class="part">
+              <h3>Huntville</h3>
+              <iframe width="640" height="360" src="//www.youtube.com/embed/Tuui0LOw5nA" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </section>
+        </section>
+
+        <section>
+          <h2>How to Survive CS3216 and CS3217</h2>
+          <ul>
+            <li>Sleep less.</li>
+            <li>Make friends.</li>
+            <li>Look for libraries and frameworks. Do not reinvent the wheel.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Personal Experience</h2>
+          <ul>
+            <li>Very little handholding. Thrown into the deep end of the pool.</li>
+            <li>Extremely fast way to level up.</li>
+            <li>You'll never die alone.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Hackathons</h2>
+          <p>Eat. Hack. <s>Sleep.</s> Repeat</p>
+          </ul>
+        </section>
+
+        <section>
+          <h2>What's a Hackathon?</h2>
+          <ol>
+            <li>Form a team and code over 24 hours.</li>
+            <li>Free food for a weekend.</li>
+            <li>Cool swag!</li>
+          </ol>
+        </section>
+
+        <section>
+          <h2>What should I hack?</h2>
+          <ul>
+            <li>Anything! But usually there's a theme.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>What kind of hacks win?</h2>
+          <ul>
+            <li>Polished apps with well-communicated ideas.</li>
+            <li>Networking involved.</li>
+            <li>Read: 
+              <a href="http://tessrinearson.com/blog/?p=452" target="_blank">8 kinds of projects you meet at a hackathon.</a>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Winning Strategies</h2>
+          <ul>
+            <li>Swiss-army knife team.</li>
+            <li>A coder with design sense.</li>
+            <li>Networking involved.</li>
+            <li>Using the right tools.</li>
+            <li>All about fluff and showmanship.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Swiss Army Knife Team</h2>
+          <ul>
+            <li>Diverse and multiple roles.</li>
+            <ul>
+              <li>Back-end guy</li>
+              <li>Front-end guy (who can design)</li>
+            </ul>
+            <li>Pick up new skills fast.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Polish</h2>
+          <ul>
+            <li>Recognize cheap ways to attain polish!</li>
+            <li>Bootstrap is <u><strong>NOT</strong></u> sufficient.</li>
+            <li>People loves things that move. Use <a href="http://daneden.github.io/animate.css/" target="_blank">animate.css</a>.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Showmanship</h2>
+          <ul>
+            <li>Only 2-3 mins per presentation.</li>
+            <li>Know what you want to demonstrate and rehearse the presentation flow well.</li>
+            <li>Focus on the part that needs to be shown. Make sure those work!</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Winning Hacks</h2>
+          <div class="part">
+            <h3>SoundMesh</h3>
+            <p>3rd in PennApps 2013 Fall</p>
+            <iframe width="640" height="360" src="//www.youtube.com/embed/mkTRKo3D7WA" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </section>
+
+        <section>
+          <h2>Winning Hacks</h2>
+          <div class="part">
+            <h3>Magellan</h3>
+            <p>2nd Runner Up in Smart Port Hackathon 2014</p>
+            <iframe src="//player.vimeo.com/video/101667009" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          </div>
+        </section>
+
+        <section>
+          <h2>Personal Experience</h2>
+          <ul>
+            <li>Good way to learn a new library/framework.</li>
+            <li>Tiring but rewarding process.</li>
+            <li>Potentially complete your project through a hackathon.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h1>Q &amp; A</h1>
+          <h3>By Beng and Yang Shun</h3>
+        </section>
+
+      </div>
+
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.min.js"></script>
+
+    <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Parallax scrolling
+        // parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+        // parallaxBackgroundSize: '2100px 900px',
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+        ]
+      });
+
+    </script>
+
+  </body>
 </html>

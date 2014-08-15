@@ -1,0 +1,12 @@
+.reveal h2, .highlight {
+  color: #cdfd34;
+}
+
+.reveal .part {
+  margin-bottom: 50px;
+}
+
+.reveal .ben {
+  display: block;
+  margin: 0 auto;
+}
